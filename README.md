@@ -30,20 +30,20 @@ A modern, user-friendly train booking application built with **TypeScript**, **R
 ### Steps
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Payal-mak/Train-Booking-System.git
    cd Train-Booking-System
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. **Open in browser**
    - Navigate to `http://localhost:5173` (default Vite port)
@@ -71,7 +71,7 @@ A modern, user-friendly train booking application built with **TypeScript**, **R
 ### Tailwind CSS
 Customize the default Tailwind theme in `tailwind.config.js`:
 
-\`\`\`javascript
+```javascript
 export default {
   theme: {
     extend: {
@@ -79,16 +79,16 @@ export default {
     },
   },
 }
-\`\`\`
+```
 
 ### TypeScript
 Configure TypeScript settings in `tsconfig.json` and `tsconfig.app.json` for strict type checking and optimal development experience.
 
 ### ESLint
 The project uses ESLint for code quality. Run:
-\`\`\`bash
+```bash
 npm run lint
-\`\`\`
+```
 
 ## 🔧 Development
 
@@ -111,17 +111,17 @@ npm run lint
 
 To create an optimized production build:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 The build output will be generated in the `dist/` directory, ready for deployment.
 
 To preview the production build locally:
 
-\`\`\`bash
+```bash
 npm run preview
-\`\`\`
+```
 
 ## 👤 Author
 
